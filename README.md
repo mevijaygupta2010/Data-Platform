@@ -1,1 +1,1 @@
-# How To use Deployment for Snowflake Artifacts
+# Documentation To use Deployment for Snowflake Artifacts
