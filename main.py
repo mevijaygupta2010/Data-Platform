@@ -1,13 +1,16 @@
 #Run command py.exe .\Load_Data_Snowflake.py --user VIJAYGUPTA2023 --account akb90481.prod3.us-west-2.aws
+#--(>------------------------HouseKeeping Activities---------------------
 import logging
 import os
 import sys
-
-
 from  .. import config
 import snow_connect
 from snow_setup import set_up as setup_snowflake
 from snow_create_table import create_snow_tables as sn_tab
+
+# -- <) ---------------------------- END_SECTION=HouseKeeping Activities --------------------
+
+
 # -- (> ---------------------- SECTION=import_connector ---------------------
 # import snowflake.connector
 from snowflake.connector.errors import DatabaseError, ProgrammingError
